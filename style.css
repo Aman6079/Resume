@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 50%;
+    background-color: #F2F2F2;
+}
+
+.head-font{
+    font-size: 26px;
+    font-family: 'Ubuntu', sans-serif;
+    color:#444444;
+
+}
+.para-font{
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #676767;
+}
+.none{
+    list-style: none;
+}
+.style{
+    text-decoration: none;
+    color: gray;
+}
+.pn{
+    padding-left: none;
+    padding-right: none;
+}
+.no-gutters{
+    padding-left: none;
+}
+
+ .carousel-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+ }
+  
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+  @media screen and (max-width:1098){
+    #img{
+        display:none;
+    }
+  }
+  .ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .raleway{
+    font-family: 'Raleway', sans-serif;
+  }
+  .montserrat{
+    font-family: 'Montserrat', sans-serif;
+  }
